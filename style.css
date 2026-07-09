@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     margin: 0;
 }
 
@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 16px 150px;
-    background-color: rgb(78, 134, 136);
+    background-color: #1f2937;
 }
 
 .header ul {
@@ -24,13 +24,14 @@ body {
 }
 
 .logo {
-    color: rgb(0, 0, 0);
+    color: #f9faf8;
     font-weight: bolder;
+    font-size: 24px;
 }
 
 .header a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #f9faf8;
   font-weight: bold;
 }
 
@@ -38,14 +39,72 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(78, 134, 136);
+  background-color: #1f2937;
   padding: 30px 150px;
 }
 
-.hero-text {
-
+.hero-text h1 {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
 }
 
-img {
+.hero-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-text button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px 24px;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.hero img {
     width:450px;
+}
+
+.information {
+    text-align: center;
+    padding: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
 }
